@@ -11,9 +11,7 @@ maximise trips served and therefore choose zones that have hub-like characterist
 well-connected and near centres of high user activity. Lastly, the company considers operating
 purely outside the Manhattan borough where there is less competition.
 
-<center>
-  <img src="images/plot_boroughs.png" alt="NYC Zones and Boroughs" width="600"/>
-</center>
+
 
 To help with this task, the taxi company contracts you to analyse its historical trip records and
 recommend a list of city zones where they should station their fleets. To that end, the company
@@ -23,9 +21,7 @@ connected by a relationship of type `:CONNECTS` if a minimum of one trip was rec
 them. In addition, `:CONNECTS` relationships have property `trips` representing the total number of
 trips observed in the year. Lastly, a node is related to a borough via a relationship of type `:IN`. 
 
-<center>
-  <img src="images/capture_neo4j.png" alt="Subset of input neo4j graph" width="600"/>
-</center>
+
 
 Based on preliminary exploration of the database and the NYC zones and boroughs map (shown above),
 you decide to tackle the challenge by combining two methods of _network analysis_ available in the

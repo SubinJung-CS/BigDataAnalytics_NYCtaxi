@@ -1,12 +1,6 @@
 # BigDataAnalytics_NYCtaxi
 ## Neo4j Assignment
 
-Contents:
-
-- [Scenario](#scenario)
-- [Task details](#task-details)
-- [Connection details](#connection-details)
-
 ## Scenario
 
 A taxi company operating in New York City (NYC) is rethinking its fleet allocation strategy. Their
